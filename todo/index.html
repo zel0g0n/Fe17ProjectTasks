@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo</title>
+</head>
+<body>
+    <section class="modal">
+        <div class="modal_wndw">
+            <h5 class="mod-paragraph">Register now</h5>
+            <form class="registerMain" action="">
+                <label for="fname">First Name</label>
+                <input  class="inp" type="text" name="fname" id="fname">
+                <label for="lname">Last Name</label>
+                <input  class="inp" type="text" name="lname" id="lname">
+                <label for="">Gender</label>
+                <div class="gender">
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Male</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">Female</label>
+                </div>
+                <label for="mail">Enter Email</label>
+                <input  class="inp" type="email" name="mail" id="mail" placeholder="name@mail.com">
+                <label for="password">Password</label>
+                <input   class="inp" type="password" name="password" id="password">
+                <input type="button" name="btn" id="button" value="Send">
+            </form>
+        </div>
+    </section>
+    <div class="wrapper">
+        <header>
+            <h2 class="heading">todo</h2>
+            <div class="imagine">
+                <p class="register">Register now</p>
+            </div>
+
+        </header>
+        <form action="">
+            <input type="text" class="todoEnter" placeholder="Create a new todo…">
+            <button type="button">+</button>
+        </form>
+
+    </div>
+    <main>
+        <div class="main-item">
+            <ul class="todo">
+            </ul>
+        </div>
+    </main>
+    
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
