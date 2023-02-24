@@ -1,0 +1,74 @@
+$globalMargin: 0 auto;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    .wrapper {
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 50px;
+        background-color: rgb(180, 178, 176);
+        .slider {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1300px;
+            height: 600px;
+            margin: $globalMargin;
+            .slider_info {
+                width: 600px;
+                height: 600px;
+                padding: 30px 20px;
+                background-image: url(https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/05/24141529/vin-diesel-1600x900.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center top;
+                .about_item {
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    line-height: 33px;
+                    letter-spacing: 1px;
+                    font-size: 23px;
+                    color:rgb(161, 170, 184);
+                    backdrop-filter: blur(3px);
+                }
+            }
+            .slider_items {
+                width: 600px;
+                height: 400px;
+                overflow: hidden;
+                background-color: #2323;
+                .slide_shower {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                    height: 60px;
+                    & {
+                        font-size: 30px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color:rgb(71, 68, 68);
+                    }
+                    i {
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .slider_elements {
+                    transition: 1s;
+                    display: flex;
+                    width: max-content;
+                    .slide_member {
+                        
+                        .slide__member-item {
+                            width: 600px;
+                            height: 350px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

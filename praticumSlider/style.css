@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 50px;
+  background-color: rgb(180, 178, 176);
+}
+body .wrapper .slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+}
+body .wrapper .slider .slider_info {
+  width: 600px;
+  height: 600px;
+  padding: 30px 20px;
+  background-image: url(https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/05/24141529/vin-diesel-1600x900.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+body .wrapper .slider .slider_info .about_item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 33px;
+  letter-spacing: 1px;
+  font-size: 23px;
+  color: rgb(161, 170, 184);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+body .wrapper .slider .slider_items {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  background-color: rgba(34, 51, 34, 0.2);
+}
+body .wrapper .slider .slider_items .slide_shower {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+body .wrapper .slider .slider_items .slide_shower {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(71, 68, 68);
+}
+body .wrapper .slider .slider_items .slide_shower i:hover {
+  cursor: pointer;
+}
+body .wrapper .slider .slider_items .slider_elements {
+  transition: 1s;
+  display: flex;
+  width: -moz-max-content;
+  width: max-content;
+}
+body .wrapper .slider .slider_items .slider_elements .slide_member .slide__member-item {
+  width: 600px;
+  height: 350px;
+}/*# sourceMappingURL=style.css.map */
